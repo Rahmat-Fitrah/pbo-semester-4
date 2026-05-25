@@ -7,6 +7,7 @@ public class Main {
         myBank.transferUang(500000, "1234567890");
         myBank.transferUang(1500000, "0987654321", "Bank BCA");
         myBank.transferUang(200000, "555666777", "Bank Mandiri", "Bayar Listrik");
+        
         System.out.println("\n======== Struk Transfer Bank BNI & BCA ========");
         BankBNI BNI = new BankBNI();
         BNI.SukuBunga();
